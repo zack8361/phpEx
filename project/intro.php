@@ -24,7 +24,7 @@
 
       <div class="col-12 col-sm-8 col-md-4 m-auto">
         <div class="card">
-          <div class="card-body" style="height: 400px;">
+          <div class="card-body" style="height: 450px;">
             <form action="login.php" method="post">
               <div class="text-center mt-3">
                 <img class="mt-4 mb-4" src="./image/danawa_RGB.png" height="50" alt="logo" />
