@@ -1,16 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
+// 정적 메소드 생성과 접근 방식.
 
-<body>
-  <?php echo "hi" ?>
+User::pwd_string();
 
-</body>
-
-</html>
+class User
+{
+  static function pwd_string()
+  {
+    echo "please enter your password";
+  }
+}
