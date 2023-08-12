@@ -9,9 +9,8 @@ $servrname = "localhost";
 $username = "root";
 $password = "123123123";
 
+
 $conn = mysqli_connect($servrname, $username, $password);
-
-
 // 부정문 먼저쓰네 
 if (!$conn) {
   die("DB 연결에 실패하였스빈다");

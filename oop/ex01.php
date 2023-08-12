@@ -24,7 +24,6 @@ class Friut
     return $this->color;
   }
 }
-
 $apple = new Friut("사과", "빨강");
 $banana = new Friut("바나나", "노랑");
 
