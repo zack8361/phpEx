@@ -1,0 +1,10 @@
+// 데이터 베이스 생성 query
+create database kingchobo;
+
+create table board(
+  idx integer unsigned not null auto_increment,
+  subject varchar(255) default '',
+  content text,
+  rdate datime,
+  primary key(idx)
+);
