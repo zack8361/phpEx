@@ -39,7 +39,7 @@
               <div class="text-center mt-2">
                 <a class="aho" href="123" style="text-decoration:none; font-size:12px; color:darkgray">비밀번호 변경</a>
                 <span style="color: darkgray; font-size:12px;">|</span>
-                <a href="" style="text-decoration:none; font-size:12px; color:darkgray">회원가입</a>
+                <a href="./register.php" style="text-decoration:none; font-size:12px; color:darkgray">회원가입</a>
               </div>
             </form>
           </div>
