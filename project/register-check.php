@@ -1,9 +1,7 @@
 <?php
 
-include_once "./db.php";
-
+include "./inc/db.php";
 $email = $_POST['email'];
-
 
 
 $sql = "SELECT count(*) AS cnt from user WHERE EMAIL = '$email'";
