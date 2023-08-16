@@ -14,4 +14,8 @@ class Member
   {
     var_dump($marray);
   }
+  public function login($id, $pwd)
+  {
+    var_dump($id);
+  }
 }
