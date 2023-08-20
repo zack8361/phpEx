@@ -12,7 +12,6 @@ $mem = new Member($db);
 
 $encrypted_password = $mem->hashPassword($password);
 
-
 try {
     // 로그인 성공 과 실패 분기
     if ($mem->login($email, $encrypted_password)) {
