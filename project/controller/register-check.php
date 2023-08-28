@@ -19,6 +19,7 @@ $sql = "SELECT count(*) AS cnt from tuser WHERE sEmail = '$email'";
 // db 연결을 conn으로 해서
 try {
     $stmt = $db->prepare($sql);
+    // $stmt
     $stmt->execute();
     $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
     $row = $stmt->fetch();
